@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hackathon-sber-teh"
+version = "0.1.0"
+description = ""
+authors = ["Timotshak <TimEgor248@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+sampo = "0.1.1.327"
+optuna = "^3.5.0"
+business-calendar = "^0.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
